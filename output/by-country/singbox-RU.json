@@ -4,8 +4,20 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
+      "server": "msk.frkn.org",
+      "server_port": 443,
+      "password": "f317b5d6-d399-4d3d-a051-89d674ae953c",
+      "tls": {
+        "enabled": true,
+        "server_name": "msk.frkn.org",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
       "server": "46.8.200.91",
       "server_port": 443,
       "uuid": "b8201bab-fa6c-4f6e-b289-b5da660c6f69",
@@ -24,7 +36,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
+      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
       "server": "ru.xiaoliyu.cyou",
       "server_port": 4433,
       "password": "19f72087-4591-4d72-930b-2697078ec2be",
@@ -32,18 +44,6 @@
         "enabled": true,
         "server_name": "ru.xiaoliyu.cyou",
         "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-      "server": "msk.frkn.org",
-      "server_port": 443,
-      "password": "f317b5d6-d399-4d3d-a051-89d674ae953c",
-      "tls": {
-        "enabled": true,
-        "server_name": "msk.frkn.org",
-        "insecure": false
       }
     },
     {
@@ -67,12 +67,16 @@
       }
     },
     {
-      "type": "shadowsocks",
+      "type": "hysteria2",
       "tag": "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
-      "server": "130.49.189.158",
-      "server_port": 43558,
-      "method": "chacha20-ietf-poly1305",
-      "password": "/QFycb02d87cByC9+5ZRSygI1avHiPXkgYG2yc+TnGA="
+      "server": "gta.internet-card.sbs",
+      "server_port": 443,
+      "password": "mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj",
+      "tls": {
+        "enabled": true,
+        "server_name": "gta.internet-card.sbs",
+        "insecure": true
+      }
     },
     {
       "type": "selector",
