@@ -5,12 +5,13 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇭 瑞士 (Switzerland) 01 - xiaohe
-  server: 132.243.175.144
-  port: 8388
+  server: 104.165.205.40
+  port: 8443
   udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
+  type: hysteria2
+  password: 54d2f622-fd71-4f5f-8813-832b68f4ca3b
+  sni: speedtestmark.com
+  skip-cert-verify: true
 - name: 🇨🇭 瑞士 (Switzerland) 02 - xiaohe
   server: 104.165.205.42
   port: 8443
