@@ -6,23 +6,12 @@
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
-      "server": "104.21.96.1",
-      "server_port": 443,
-      "uuid": "0836463b-214f-4af6-aa85-85a56a62388e",
-      "tls": {
-        "enabled": true,
-        "server_name": "d2127a49-flat-wood-c4b5.milia-akbarpoor.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
+      "server": "153.76.185.147",
+      "server_port": 3090,
+      "uuid": "dca830a2-3c69-4e1b-bc0b-a2ea22af53ba",
       "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "d2127a49-flat-wood-c4b5.milia-akbarpoor.workers.dev"
-        }
+        "type": "grpc",
+        "service_name": "vless"
       }
     },
     {
