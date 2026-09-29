@@ -17,15 +17,15 @@ proxies:
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https://t.me/wangcai2🇨🇳
+  sni: t.me
   skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 03 - xiaohe
-  server: b9bccf5a-tmeqo0-0-1jcwu.hk3.hyhuawei.com
+  server: 202.146.222.89
   port: 443
   udp: true
   type: hysteria2
-  password: f93486ce-cc84-11ed-9e98-f23c913c8d2b
-  sni: b9bccf5a-tmeqo0-0-1jcwu.hk3.hyhuawei.com
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https%253a%252f%252ft.me%252fclashv8%25f0%259f%2587%25a8%25f0%259f%2587%25b3
   skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
   server: 202.146.222.29
@@ -33,25 +33,9 @@ proxies:
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https://t.me/wangcai2рҹүрҹү
+  sni: t.me
   skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 05 - xiaohe
-  server: 202.146.222.89
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https://t.me/clashv8🇨🇳
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - xiaohe
-  server: 2.27.109.179
-  port: 45464
-  udp: true
-  type: trojan
-  password: XuMweB2PWs
-  sni: 2.27.109.179.sslip.io
-  skip-cert-verify: false
-- name: 🇭🇰 中国香港 (Hong Kong) 07 - xiaohe
   server: 194.99.79.26
   port: 443
   udp: true
@@ -65,7 +49,9 @@ proxies:
   network: ws
   ws-opts:
     path: /linkvws
-- name: 🇭🇰 中国香港 (Hong Kong) 08 - xiaohe
+    headers:
+      Host: aksai.org
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - xiaohe
   server: 85.149.211.28
   port: 8443
   udp: true
@@ -91,8 +77,6 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 05 - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 06 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 07 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 08 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -104,7 +88,5 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 05 - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 06 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 07 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 08 - xiaohe
 rules:
 - MATCH,PROXIES
