@@ -5,38 +5,15 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
-      "server": "188.114.97.6",
-      "server_port": 2086,
+      "tag": "🇺🇸 美国 (United States) 01 (移动家宽) - xiaohe",
+      "server": "162.159.43.187",
+      "server_port": 8080,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/?ed=2560security=tls",
         "headers": {
-          "Host": "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 02 (家宽) - xiaohe",
-      "server": "128.241.25.11",
-      "server_port": 30021,
-      "uuid": "72fbb611-628d-4afa-8198-bda3e38021f9",
-      "tls": {
-        "enabled": true,
-        "server_name": "3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev"
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
         }
       }
     },
@@ -45,16 +22,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
-        "🇯🇵 日本 (Japan) 02 (家宽) - xiaohe"
+        "🇺🇸 美国 (United States) 01 (移动家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
-        "🇯🇵 日本 (Japan) 02 (家宽) - xiaohe"
+        "🇺🇸 美国 (United States) 01 (移动家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
